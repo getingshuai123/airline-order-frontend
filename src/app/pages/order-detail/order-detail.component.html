@@ -1,4 +1,4 @@
-<div class="page-container" *ngIf="order$ | async as order; else loading">
+<div class="page-container" *ngIf="order$ | async as order; else loading" style="background-color: skyblue;">
   <nz-page-header nzBackIcon [nzGhost]="false" nzTitle="订单详情" [nzSubtitle]="order.orderNumber">
     <nz-page-header-extra>
       <a routerLink="/orders">返回列表</a>

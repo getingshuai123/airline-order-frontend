@@ -1,6 +1,6 @@
-<div class="login-container">
+<div class="login-container" style="background-color: skyblue; padding: 20px; border-radius: 8px;">
   <form nz-form [formGroup]="loginForm" class="login-form" (ngSubmit)="submitForm()">
-    <h2 class="login-title">航空订单系统登录</h2>
+    <h2 class="login-title">航空订单系统</h2>
     <nz-form-item>
       <nz-form-control nzErrorTip="请输入用户名!">
         <nz-input-group nzPrefixIcon="user">
@@ -15,6 +15,6 @@
         </nz-input-group>
       </nz-form-control>
     </nz-form-item>
-    <button nz-button class="login-form-button" [nzType]="'primary'" [nzLoading]="isLoading">登 录</button>
+    <button nz-button class="login-form-button" [nzType]="'primary'" [nzLoading]="isLoading">登录系统</button>
   </form>
 </div>
